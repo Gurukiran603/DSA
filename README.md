@@ -12,7 +12,7 @@
 
 ## 📊 Progress Tracker
 
-* 🧠 Total Problems Solved: **<!--TOTAL_START-->0<!--TOTAL_END-->**
+* 🧠 Total Problems Solved: **<!--TOTAL_START-->2<!--TOTAL_END-->**
 * 🟢 Easy: **<!--EASY_START-->0<!--EASY_END-->**
 * 🟡 Medium: **<!--MEDIUM_START-->0<!--MEDIUM_END-->**
 * 🔴 Hard: **<!--HARD_START-->0<!--HARD_END-->**
