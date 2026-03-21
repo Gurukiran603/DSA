@@ -1,10 +1,8 @@
 import os
 
-base_path = "./"
-
 easy = medium = hard = total = 0
 
-for root, dirs, files in os.walk(base_path):
+for root, dirs, files in os.walk("."):
     for file in files:
         if file.endswith(".py"):
             total += 1
@@ -19,8 +17,8 @@ for root, dirs, files in os.walk(base_path):
 with open("README.md", "r") as f:
     content = f.read()
 
-def replace(text, start, end, value):
-    return text.split(start)[0] + start + str(value) + end + text.split(end)[1]
+def replace(content, start, end, value):
+    return content.split(start)[0] + start + str(value) + end + content.split(end)[1]
 
 content = replace(content, "<!--TOTAL_START-->", "<!--TOTAL_END-->", total)
 content = replace(content, "<!--EASY_START-->", "<!--EASY_END-->", easy)
