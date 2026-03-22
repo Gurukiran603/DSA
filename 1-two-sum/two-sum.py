@@ -9,3 +9,9 @@ class Solution:
                 return [seen[diff], i]
 
             seen[nums[i]] = i
+
+
+
+'''Approach	   Time	   Space
+Brute Force	    O(n²)	O(1)
+HashMap (Best)	 O(n)	O(n)'''
