@@ -17,3 +17,11 @@ class Solution(object):
                 right -= 1
         
         return "".join(slist)
+
+
+'''
+| Approach         | Time Complexity | Efficient? |
+| ---------------- | --------------- | ---------- |
+| Your nested loop | O(n²)           | ❌ Slow     |
+| Two pointers     | O(n)            | ✅ Fast     |
+'''
