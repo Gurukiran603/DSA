@@ -8,9 +8,9 @@ class Solution(object):
         count = 0
         for num in nums:
             if count == 0:
-                candidate = num
+                candidate = num                                           # all test case not passed 
                 count += (1 if num == candidate else -1)
-            return candidate
+            return candidate                                                #Boyer-Moore Voting Algorithm
             """
         count = {}
 
