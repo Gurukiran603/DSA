@@ -15,7 +15,7 @@ https://docs.google.com/spreadsheets/d/1ib0jJl-a0dwjLMlNM5sA366EMU-wM8Pu/htmlvie
 
 ## 📊 Progress Tracker
 
-* 🧠 Total Problems Solved: **<!--TOTAL_START-->21<!--TOTAL_END-->**
+* 🧠 Total Problems Solved: **<!--TOTAL_START-->22<!--TOTAL_END-->**
 * 🟢 Easy: **<!--EASY_START-->0<!--EASY_END-->**
 * 🟡 Medium: **<!--MEDIUM_START-->0<!--MEDIUM_END-->**
 * 🔴 Hard: **<!--HARD_START-->0<!--HARD_END-->**
